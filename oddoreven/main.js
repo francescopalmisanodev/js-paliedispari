@@ -13,7 +13,7 @@ nrand+=num;
 check(nrand);
 
 function rnd(n){
-    return(math.floor(Math.random()*n));
+    return(Math.floor(Math.random()*n)+1);
 }
 function check(n){
     if(n%2===0 && scelta==="pari" || !(n%2===0) && scelta==="dispari"){
